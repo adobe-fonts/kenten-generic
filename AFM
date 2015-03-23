@@ -1,23 +1,23 @@
 StartFontMetrics 4.1
-Comment Copyright 2010 Adobe Systems Incorporated. All Rights Reserved.
-Comment Creation Date: Wed Nov  3 09:43:47 2010
+Comment Copyright 2015 Adobe Systems Incorporated. All Rights Reserved.
+Comment Creation Date: Mon Mar 23 08:39:17 2015
 MetricsSets 2
 FontName KentenGeneric
 Weight Regular
 FontBBox 0 -120 900 880
-Version 1.000
-Notice Copyright 2000, 2010 Adobe Systems Incorporated. All Rights Reserved.
+Version 1.001
+Notice Copyright 2000, 2010, 2015 Adobe Systems Incorporated (http://www.adobe.com).
 CharacterSet Adobe-Identity-0
-Characters 13
+Characters 12
 IsBaseFont true
 IsCIDFont true
 StartDirection 2
-UnderlinePosition -100
+UnderlinePosition -150
 UnderlineThickness 50
 ItalicAngle 0
 IsFixedPitch false
 EndDirection
-StartCharMetrics 13
+StartCharMetrics 12
 C -1 ; W0X 1000 ; N 0 ; B 100 -120 900 880 ;
 C -1 ; W0X 1000 ; N 1 ; B 0 0 0 0 ;
 C -1 ; W0X 1000 ; N 2 ; B 280 160 720 600 ;
@@ -30,6 +30,5 @@ C -1 ; W0X 1000 ; N 8 ; B 150 30 850 730 ;
 C -1 ; W0X 1000 ; N 9 ; B 255 135 745 625 ;
 C -1 ; W0X 1000 ; N 10 ; B 168 27 829 702 ;
 C -1 ; W0X 1000 ; N 11 ; B 185 34 828 698 ;
-C -1 ; W0X 1000 ; N 12 ; B 0 0 0 0 ;
 EndCharMetrics
 EndFontMetrics

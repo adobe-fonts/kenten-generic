@@ -1,34 +1,23 @@
-Kenten Generic
-====
+# Kenten Generic
 
-Overview
-----
-Kenten Generic is a special-purpose OpenType font. This open source project provides all of the source files that were used to build this OpenType font by using the AFDKO *makeotf* tool.
+Kenten Generic is a special-purpose OpenType/CFF font that provides glyphs suitable for typesetting emphasis marks, which are referred to as "kenten" (&#x570F;&#x70B9;) in Japanese, hence the name of this OpenType/CFF font.
 
-Getting Involved
-----
-Send suggestions for changes to the Kenten Generic project maintainer, lunde@adobe.com, for consideration.
+## Font installation instructions
 
-Building
-====
+* [OS X](http://support.apple.com/kb/HT2509)
+* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
+* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
 
-Pre-built font binaries
-----
-The installable font resources (font binaries) are not part of the source files. They are available on [Open@Adobe](https://sourceforge.net/projects/kenten-generic.adobe/files/).
+## Building the font from source
 
+### Requirements
 
-Requirements
-----
+To build the binary font file from source, you need to have installed the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO). The AFDKO tools are widely used for font development today, and are part of most font editor applications.
 
-For building binary font files from source, installation of the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO) is necessary. The AFDKO tools are widely used for font development today, and are included in most font editing applications.
+### Building the font
 
-Building the fonts
-----
+In this repository, all necessary files are in place for building the OpenType/CFF font, and the COMMANDS.txt file provides the command lines that are used.
 
-The key to building OpenType fonts is *makeotf*, which is part of AFDKO. Information and usage instructions can be found by executing *makeotf -h*.
+## Getting Involved
 
-In this repository, all necessary files are in place for building the OpenType font. For example, build a binary OTF font like this:
-
-    % makeotf -f cidfont.ps -r -ch UniKentenGeneric-UTF32-H
-
-That is all.
+Send suggestions for changes to the Kenten Generic project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub] Kenten Generic), for consideration.

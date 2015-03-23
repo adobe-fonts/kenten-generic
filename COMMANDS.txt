@@ -1,0 +1,15 @@
+# Command lines for building Kenten Generic
+#
+# Version 2015-03-23
+#
+# The following AFDKO "makeotf" command line builds the OpenType/CFF
+# font:
+
+makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf FontMenuNameDB -r -cs 1 -ch UniKentenGeneric-UTF32-H
+
+# To add the "stub" 'DSIG' table to the OpenType/CFF font, the
+# following AFDKO command line is used:
+
+sfntedit -a DSIG=DSIG.bin KentenGeneric.otf
+
+# EOF

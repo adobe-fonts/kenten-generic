@@ -1,18 +1,23 @@
-FontName       (KentenGeneric)
-FullName       (Kenten Generic)
-FamilyName     (Kenten Generic)
-Weight         (Regular)
-version        (1.000)
-Registry       (Adobe)
-Ordering       (Identity)
-Supplement     0
-Layout         (AI0-KentenGeneric)
-XUID           [1 11 9273838]
-AdobeCopyright (Copyright 2000, 2010 Adobe Systems Incorporated. All Rights Reserved.)
-Trademark      ()
-FSType         8
-Language       (Japanese)
-isFixedPitch   true
-Serif          false
-IsBoldStyle    false
-IsItalicStyle  false
+FontName                   (KentenGeneric)
+FullName                   (Kenten Generic)
+FamilyName                 (Kenten Generic)
+Weight                     (Regular)
+version                    (1.001)
+Registry                   (Adobe)
+Ordering                   (Identity)
+Supplement                 0
+XUID                       [1 11 9273838]
+Layout                     (AI0-KentenGeneric)
+FSType                     0
+isFixedPitch               true
+UnderlinePosition          -150
+AdobeCopyright             (Copyright 2000, 2010, 2015 Adobe Systems Incorporated (http://www.adobe.com).)
+Trademark                  ()
+Serif                      false
+IsBoldStyle                false
+IsItalicStyle              false
+PreferOS/2TypoMetrics      false
+IsOS/2WidthWeigthSlopeOnly false
+IsOS/2OBLIQUE              false
+UseOldNameID4              false
+LicenseCode                ADOBE
