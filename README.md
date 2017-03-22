@@ -20,4 +20,4 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 ## Getting Involved
 
-Send suggestions for changes to the Kenten Generic project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub] Kenten Generic), for consideration.
+Send suggestions for changes to the Kenten Generic project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Kenten%20Generic), for consideration.
